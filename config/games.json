@@ -1,7 +1,7 @@
 [
     {
-    "link": "projects/subway-surfers/index.html",
-    "imgSrc": "projects/subway-surfers/img/splash.jpg",
+    "link": "projects/subway-surfers-ny/index.html",
+    "imgSrc": "projects/subway-surfers-ny/NewYorkIcon.png",
     "title": "Subway Surfers"
   },
   {
@@ -678,6 +678,11 @@
     "link": "projects/tosstheturtle/index.html",
     "imgSrc": "projects/tosstheturtle/tosstheturtle.png",
     "title": "Toss The Turtle"
+  },
+  {
+    "link": "projects/townscaper/index.html",
+    "imgSrc": "projects/townscaper/cover.jpg",
+    "title": "Townscaper"
   },
   {
     "link": "projects/tube-jumpers/index.html",
