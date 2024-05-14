@@ -1,4 +1,9 @@
 [
+    {
+    "link": "projects/subway-surfers/index.html",
+    "imgSrc": "projects/subway-surfers/img/splash.jpg",
+    "title": "Subway Surfers"
+  },
   {
     "link": "projects/run%203/Run%203.html",
     "imgSrc": "projects/run%203/image_proxy.jpg",
