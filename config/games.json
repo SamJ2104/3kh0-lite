@@ -1,4 +1,9 @@
 [
+        {
+    "link": "projects/Superhero-Driving/index.html",
+    "imgSrc": "projects/subway-surfers-ny/NewYorkIcon.png",
+    "title": "Superhero Driving"
+  },
     {
     "link": "projects/subway-surfers-ny/index.html",
     "imgSrc": "projects/subway-surfers-ny/NewYorkIcon.png",
