@@ -1,4 +1,9 @@
 [
+          {
+    "link": "projects/EaglerSP/index.html",
+    "imgSrc": "projects/minecraft/splash.jpeg",
+    "title": "Minecraft (New)"
+  },
         {
     "link": "projects/SuperHeroDriving/index.html",
     "imgSrc": "https://www.nintendo.com/eu/media/images/11_square_images/games_18/nintendo_switch_download_software/1x1_NSwitchDS_SuperHeroDrivingSchool_image500w.jpg",
@@ -422,7 +427,7 @@
   {
     "link": "projects/EaglerSP/index.html",
     "imgSrc": "projects/minecraft/splash.jpeg",
-    "title": "Eaglercraft"
+    "title": "Minecraft (New)"
   },
   {
     "link": "projects/minecraft-classic/index.html",
