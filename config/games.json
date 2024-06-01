@@ -150,6 +150,11 @@
     "title": "circlO"
   },
   {
+    "link": "projects/ClusterT/index.html",
+    "imgSrc": "projects/ClusterT/icon.png",
+    "title": "Clustertruck Ripoff"
+  },
+  {
     "link": "projects/connect3/index.html",
     "imgSrc": "projects/connect3/connect3.png",
     "title": "Connect 3"
