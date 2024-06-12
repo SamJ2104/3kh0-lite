@@ -4,6 +4,11 @@
     "imgSrc": "projects/minecraft/splash.jpeg",
     "title": "Minecraft (New)"
   },
+          {
+    "link": "projects/slitherio/index.html",
+    "imgSrc": "projects/slitherio/icon.png",
+    "title": "Slither.io"
+  },
         {
     "link": "projects/SuperHeroDriving/index.html",
     "imgSrc": "https://www.nintendo.com/eu/media/images/11_square_images/games_18/nintendo_switch_download_software/1x1_NSwitchDS_SuperHeroDrivingSchool_image500w.jpg",
