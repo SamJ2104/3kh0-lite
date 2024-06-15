@@ -14,8 +14,10 @@
 
     const bigLayerMod = {
         init() {
-            this.scale = 2;
+            this.bigScale = 2;
+            this.smallScale = 0.5;
             this.enabled = false;
+            this.shrinkEnabled = false;
 
             runtime.tickMe(this);
             globalThis.ovoBigLayer = this;
@@ -23,6 +25,11 @@
             window.addEventListener('keydown', (event) => {
                 if (event.key === 'Control') {
                     this.enabled = !this.enabled;
+                    this.shrinkEnabled = false; // Disable shrinking if Control is pressed
+                }
+                if (event.key === 'Shift') {
+                    this.shrinkEnabled = !this.shrinkEnabled;
+                    this.enabled = false; // Disable enlarging if Shift is pressed
                 }
             });
         },
@@ -33,8 +40,11 @@
                 if (layer) {
                     layer.instances.forEach(instance => {
                         if (this.enabled) {
-                            instance.width = instance.originalWidth * this.scale;
-                            instance.height = instance.originalHeight * this.scale;
+                            instance.width = instance.originalWidth * this.bigScale;
+                            instance.height = instance.originalHeight * this.bigScale;
+                        } else if (this.shrinkEnabled) {
+                            instance.width = instance.originalWidth * this.smallScale;
+                            instance.height = instance.originalHeight * this.smallScale;
                         } else {
                             instance.width = instance.originalWidth;
                             instance.height = instance.originalHeight;
