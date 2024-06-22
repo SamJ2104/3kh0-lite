@@ -30,6 +30,11 @@
     "title": "OvO"
   },
   {
+    "link": "projects/csgo-clicker/index.html",
+    "imgSrc": "projects/csgo-clicker/images/vanguard.png",
+    "title": "Case Clicker"
+  },
+  {
     "link": "projects/1/index.html",
     "imgSrc": "projects/1/meta/apple-touch-icon.png",
     "title": "1"
@@ -178,11 +183,6 @@
     "link": "projects/creativekillchamber/index.html",
     "imgSrc": "projects/creativekillchamber/creativekillchamber.jpg",
     "title": "Creative Kill Chamber"
-  },
-  {
-    "link": "projects/csgo-clicker/index.html",
-    "imgSrc": "projects/csgo-clicker/images/vanguard.png",
-    "title": "CS:GO Clicker"
   },
   {
     "link": "projects/ctr/index.html",
